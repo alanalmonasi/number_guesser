@@ -53,7 +53,7 @@ guessBtn.addEventListener('click', function(){
       if (guessesLeft === 0) {
          guessInput.value = '';
          // Gameover
-         gameOver(false, `GAME OVER. The correct number was ${winningNum}`);
+         gameOver(false, `GAME OVER!. The correct number was ${winningNum}`);
       } else {
          //Change border color
          guessInput.style.borderColor = 'red';
